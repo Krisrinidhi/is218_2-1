@@ -25,7 +25,7 @@
 </head>
 <body>
     <main>
-        <h1>product discount results</h1>
+        <h1>|product discount results|</h1>
 
        <label>Product Description:</label>
         <span><?php echo $product_description_escaped; ?></span><br>
