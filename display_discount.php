@@ -24,7 +24,8 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <main><h1>RESULTS</h1>
+<<<<<<< HEAD
+    <main><h1>|RESULTS|</h1>
 
             <label>Product Description:</label>
 	            <span><?php echo $product_description_escaped; ?></span><br>
@@ -44,6 +45,25 @@
 
 
 						
+=======
+    <main>
+        <h1>|product discount results|</h1>
+
+       <label>Product Description:</label>
+        <span><?php echo $product_description_escaped; ?></span><br>
+
+        <label>List Price:</label>
+        <span><?php echo $list_price_formatted; ?></span><br>
+
+        <label>Standard Discount:</label>
+        <span><?php echo $discount_percent_formatted; ?></span><br>
+
+        <label>Discount Amount:</label>
+        <span><?php echo $discount_formatted; ?></span><br>
+
+        <label>Discount Price:</label>
+        <span><?php echo $discount_price_formatted; ?></span><br>
+>>>>>>> 50c98ea7c02623f2f177d5305e478c0e7849458f
     </main>
 </body>
 </html>
