@@ -24,7 +24,7 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    <main><h1>Product Discount Calculator</h1>
+    <main><h1>RESULTS</h1>
 
             <label>Product Description:</label>
 	            <span><?php echo $product_description_escaped; ?></span><br>
