@@ -25,22 +25,22 @@
 </head>
 <body>
     <main>
-        <h1>This page is under construction</h1>
+        <h1>product discount results</h1>
 
-        <label>Product Description:</label>
-        <span><?php echo ''; ?></span><br>
+       <label>Product Description:</label>
+        <span><?php echo $product_description_escaped; ?></span><br>
 
-        <label>Listed Price:</label>
-        <span><?php echo ''; ?></span><br>
+        <label>List Price:</label>
+        <span><?php echo $list_price_formatted; ?></span><br>
 
         <label>Standard Discount:</label>
-        <span><?php echo ''; ?></span><br>
+        <span><?php echo $discount_percent_formatted; ?></span><br>
 
         <label>Discount Amount:</label>
-        <span><?php echo ''; ?></span><br>
+        <span><?php echo $discount_formatted; ?></span><br>
 
         <label>Discount Price:</label>
-        <span><?php echo ''; ?></span><br>
+        <span><?php echo $discount_price_formatted; ?></span><br>
     </main>
 </body>
 </html>
