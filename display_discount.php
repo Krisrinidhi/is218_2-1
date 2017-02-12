@@ -28,19 +28,20 @@
         <h1>This page is under construction</h1>
 
         <label>Product Description:</label>
-        <span><?php echo ''; ?></span><br>
+	        <span><?php echo ''; ?></span><br>
 
-        <label>Listed Price:</label>
-        <span><?php echo ''; ?></span><br>
+		        <label>Listed Price:</label>
+			        <span><?php echo ''; ?></span><br>
 
-        <label>Standard Discount:</label>
-        <span><?php echo ''; ?></span><br>
+				        <label>Standard Discount:</label>
+					        <span><?php echo ''; ?></span><br>
 
-        <label>Discount Amount:</label>
-        <span><?php echo ''; ?></span><br>
+						        <label>Discount Amount:</label>
+							        <span><?php echo ''; ?></span><br>
 
-        <label>Discount Price:</label>
-        <span><?php echo ''; ?></span><br>
+								        <label>Discount Price:</label>
+									        <span><?php echo ''; ?></span><br>
+										
     </main>
 </body>
 </html>
