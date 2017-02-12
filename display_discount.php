@@ -25,7 +25,7 @@
 </head>
 <body>
     <main>
-        <h1>This page is under construction</h1>
+        <h1>|DISPLAY RESULTS|</h1>
 
         <label>Product Description:</label>
 	        <span><?php echo ''; ?></span><br>
